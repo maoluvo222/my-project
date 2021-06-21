@@ -23,8 +23,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Super-Linter
-        uses: github/super-linter@v4.2.2
+  
       
       - name: Login to DockerHub
         uses: docker/login-action@v1 

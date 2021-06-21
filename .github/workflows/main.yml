@@ -31,9 +31,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: maoluvo/test
-          add_git_labels: true
-          tags: latest
-          tag_with_ref: true
+      
       
           
       - name: Build and push
